@@ -16,7 +16,7 @@ form.addEventListener('submit', (e) => {
 
 
 function callAPI(city, country) {
-  const apiId = 'ingresa tu api aqui';
+  const apiId = '0d89a57ebd7a606b6b802b1858f8dfc0';
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${apiId}`;
 
   clearHTML()
@@ -42,7 +42,7 @@ function showWeather(data) {
   content.innerHTML =
     `
     <h1>Selec your countre and city</h1>
-
+    
     <h5>The weather in ${name}</h5>
     <img src="https://openweathermap.org/img/wn/${arr.icon}@2x.png" alt="">
     <h2>${degrees}°C</h2>
@@ -51,11 +51,6 @@ function showWeather(data) {
 
   result.appendChild(content);
 
-  console.log(name);
-  console.log(temp);
-  console.log(temp_max);
-  console.log(temp_min);
-  console.log(arr.icon);
 }
 
 function showError(message) {
