@@ -16,7 +16,7 @@ form.addEventListener('submit', (e) => {
 
 
 function callAPI(city, country) {
-  const apiId = 'escribe tu api aqui';
+  const apiId = '';
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${apiId}`;
 
   clearHTML()

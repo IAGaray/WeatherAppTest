@@ -36,7 +36,7 @@ body {
 .weather-content h1 {
   font-size: 34px;
   margin-bottom: 10px;
-  color: #fff;
+  color: #474242;
   animation: slideUp 0.5s ease-in-out;
 }
 
@@ -52,7 +52,7 @@ body {
 }
 
 .weather-content p {
-  color: #cfcfd9;
+  color: #474242;
   animation: fadeIn 1s ease-in-out;
 }
 
@@ -70,7 +70,7 @@ body {
   font-size: 70px;
   line-height: 70px;
   margin: -10px 0 10px;
-  color: #fff;
+  color: #474242;
   animation: scaleUp 1s ease-in-out;
 }
 
@@ -88,7 +88,7 @@ body {
 .result h5 {
   font-size: 21px;
   margin: 2px;
-  color: #fff;
+  color: #474242;
   animation: fadeIn 1s ease-in-out;
 }
 
@@ -125,7 +125,7 @@ form input[type="submit"] {
   cursor: pointer;
   background-color: #14d4a5;
   border: 1px solid #14d4a5;
-  color: #fff;
+  color: #474242;
   font-weight: 600;
   transition: width 1s;
   animation: slideUp 0.5s ease-in-out;
